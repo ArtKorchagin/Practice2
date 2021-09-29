@@ -54,12 +54,12 @@ fun main() {
     info.add(lecturer("Ivanov Ivan", 1972, "PhD in Physics", 1993))
     info.add(lecturer("Ilya Ilyich", 1964, "PhD in Physics", 1984))
     
-    println("Исходные данные:")
+    println("Г€Г±ГµГ®Г¤Г­Г»ГҐ Г¤Г Г­Г­Г»ГҐ:")
     printPerson(info)
-    println("Сортировка по возрасту")
+    println("Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ  ГЇГ® ГўГ®Г§Г°Г Г±ГІГі")
     printPerson(info.sortByAge())
-    println("Сортировка студентов по имени")
+    println("Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ  Г±ГІГіГ¤ГҐГ­ГІГ®Гў ГЇГ® ГЁГ¬ГҐГ­ГЁ")
     printStudent(info.sortByNameStudents())
-    println("Сортировка по средней оценке")
+    println("Г‘Г®Г°ГІГЁГ°Г®ГўГЄГ  ГЇГ® Г±Г°ГҐГ¤Г­ГҐГ© Г®Г¶ГҐГ­ГЄГҐ")
     printStudent(info.sortByAverageGrade(true))
 }
